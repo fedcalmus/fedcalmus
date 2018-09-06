@@ -1,26 +1,32 @@
-//paths
+// paths
+
 $fonts-folder: "../fonts";
 $images-folder: '../img/';
 
-//fonts
-$font-primary: "Open Sans", serif;
-$font-secondary: "Times New Roman", serif;
+// fonts
+
+$font-primary: "Poiret One", serif;
+$font-secondary: 'Raleway', sans-serif;
 $font-icons: "Icomoon Project Name";
 
-//color usage
-$color-primary: #f99f07;
-$color-secondary: #1e3143;
-$color-tertiary: #818ea7;
+// color usage
+
+$color-primary: #ffb914;
+$color-secondary: #90b0c8;
+$color-tertiary: #475f7f;
 $color-highlight: #39a4cd;
 $color-warning: #e44c23;
 
-//Descriptive Base Colors
-$color-text: #000;
+// Descriptive Base Colors
 
-//Text
+$color-text: #282828;
+
+// Text
+
 $base-font-size: 16px;
 
-//Border Radiuses
+// Border Radiuses
+
 $br-default: 4px;
 $br-md: 10px;
 $br-lg: 30px;
@@ -28,15 +34,18 @@ $br-rounded: 50%;
 $br-none: 0;
 
 // Transitions
+
 $trns-duration: .3s;
 $trns-duration-lg: 1s;
 $trns-delay: 50ms;
 
-//container
+// container
+
 $cont-width: 1280px;
 $cont-padding: 30px;
 
-//Resolutions
+// Resolutions
+
 $screen-lg: 1280px;
 $screen-md: 1024px;
 $screen-sm: 768px;
