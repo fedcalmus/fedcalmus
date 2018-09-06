@@ -1,5 +1,96 @@
 /* Button styles */
 
 .btn {
+	font-size: $f-sm;
+	height: 44px;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	white-space: nowrap;
+	transition: $transition-dur-xl;
+	width: 100%;
+	font-family: $font-secondary;
+	padding: 0 15px;
 
+	// Filled buttons
+
+	&.filled {
+		border: 0;
+		color: #ffffff;
+		line-height: 44px;
+
+		@each $key,$val in $main-colors {
+			&.#{$key} {
+				background-color: #{$val};
+			}
+		}
+
+		&:hover {
+			box-shadow: 35px 15px 4px 0 rgba(0, 0, 0, 0.75)
+		}
+	}
+
+	// Outline buttons
+
+	&.outline {
+		line-height: 41px;
+		background-color: #fff;
+		border: 2px solid transparent;
+
+		@each $key,$val in $main-colors {
+			&.#{$key} {
+				border-color: #{$val};
+			}
+		}
+	}
+
+	// Link buttons
+
+	&.link {
+		border: 0;
+		line-height: 44px;
+		background-color: transparent;
+		text-decoration: underline;
+
+		@each $key,$val in $main-colors {
+			&.#{$key} {
+				color: #{$val};
+			}
+		}
+	}
+
+	&:hover {
+		text-decoration: none;
+		opacity: 0.8;
+	}
+
+	&[disabled], &.disabled {
+		border: 0;
+		pointer-events: none;
+		line-height: 44px;
+		color: rgba(#fff, 0.6);
+		background-color: $color-disable!important;
+	}
+
+	// Buttons sizes
+
+	&.w-xs {
+		max-width: 135px;
+	}
+
+	&.w-sm {
+		max-width: 245px;
+	}
+
+	&.w-md {
+		max-width: 300px;
+	}
+
+	&.w-lg {
+		max-width: 345px;
+	}
+
+	&.w-xl {
+		max-width: 400px;
+	}
 }

@@ -16,13 +16,17 @@ $color-secondary: #90b0c8 !default;
 $color-tertiary: #475f7f !default;
 $color-highlight: #39a4cd !default;
 $color-warning: #e44c23 !default;
+$color-disable: #cecece;
+$color-black: #000000;
+$color-white: #ffffff;
 
 // Descriptive Base Colors
 
 $color-text: #282828 !default;
 
 $main-colors: (
-		primary: $color-primary, secondary: $color-secondary, tertiary: $color-tertiary, text: $color-text, warning: $color-warning
+		primary: $color-primary, secondary: $color-secondary, tertiary: $color-tertiary, text: $color-text, warning: $color-warning,
+		white: $color-white, black: $color-black
 ) !default;
 
 // Text
@@ -51,8 +55,9 @@ $br-none: 0;
 
 // Transitions
 
-$transition-dur: .3s;
-$transition-dur-lg: 1s;
+$transition-dur: .1s;
+$transition-dur-lg: .3s;
+$transition-dur-xl: .5s;
 $transition-delay: 50ms;
 
 // Container
