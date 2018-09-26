@@ -46,6 +46,7 @@
         "webpack-hot-middleware": "^2.22.2"
     },
     "dependencies": {
-        "@webcomponents/custom-elements": "^1.1.2"
+        "@webcomponents/custom-elements": "^1.1.2",
+        "jQuery": "^1.7.4"
     }
 }

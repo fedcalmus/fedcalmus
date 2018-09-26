@@ -1,0 +1,50 @@
+/* Footer styles */
+
+footer {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 70px 0;
+	background-color: $color-tertiary;
+	color: #ffffff;
+
+	.logo-img {
+		max-width: 270px;
+	}
+
+	.menu {
+
+		 li {
+
+			 a {
+				 padding: 15px 0;
+				 display: inline-block;
+			 }
+		 }
+	}
+
+	.social-icons {
+
+		li {
+			display: inline-block;
+
+			a {
+				padding: 0 20px;
+				font-size: $f-md;
+			}
+		}
+	}
+
+	.copyright {
+		margin-top: 50px;
+		border-top: 2px solid $color-white;
+
+		p {
+			padding: 25px 0;
+			font-family: $font-primary;
+			font-size: $f-sm;
+		}
+
+	}
+}

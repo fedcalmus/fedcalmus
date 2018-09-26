@@ -1,7 +1,11 @@
-const headerTestComponent = require('../src/components/header-test.component.html');
+const headerComponent = require('../src/components/header.component.html');
+const footerComponent = require('../src/components/footer.component.html');
+const mapComponent = require('../src/components/map.component.html');
 
 const components = {
-	'header-test': headerTestComponent
+	'header': headerComponent,
+	'footer': footerComponent,
+	'map': mapComponent
 };
 
 export default components;

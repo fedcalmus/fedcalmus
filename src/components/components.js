@@ -1,5 +1,7 @@
 const components = [
-	'header-test'
+	'header',
+	'footer',
+	'map'
 ];
 
 module.exports = components;

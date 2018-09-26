@@ -1,34 +1,45 @@
+/* Header styles */
+
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: #fff;
-    padding: 10px 0;
-}
 
-.logo {
-    max-width: 200px;
-
-    a {
-        display: block;
-
-        img {
-            width: 100%;
-        }
+    .logo {
+        width: 80%;
+        padding: 25px;
+        background-color: $color-secondary;
     }
-}
 
-nav {
-    
+    .logo-img {
+        max-width: 200px;
+    }
+
     .menu {
-        display: flex;
+
+        a {
+            display: inherit;
+            padding-bottom: 8px;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.6s;
+
+            &:hover {
+                border-color: $color-black;
+            }
+        }
 
         li {
-            margin: 0 10px;
 
-            a {
-                display: inline-block;
-                color: #3e424b;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+
+        .icon {
+            font-size: $f-xs;
+            cursor: pointer;
+            transition: $transition-dur-lg;
+
+            &:hover {
+                opacity: 0.7;
             }
         }
     }

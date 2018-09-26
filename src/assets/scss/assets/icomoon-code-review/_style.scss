@@ -14,40 +14,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.icon-check {
+.icon-video {
   &:before {
-    content: $icon-check;
+    content: $icon-video;
   }
 }
-.icon-facebook {
+.icon-googleplus {
   &:before {
-    content: $icon-facebook;
+    content: $icon-googleplus;
   }
 }
-.icon-g-plus {
+.icon-linkedin {
   &:before {
-    content: $icon-g-plus;
-  }
-}
-.icon-instagram {
-  &:before {
-    content: $icon-instagram;
-  }
-}
-.icon-next {
-  &:before {
-    content: $icon-next;
-  }
-}
-.icon-previous {
-  &:before {
-    content: $icon-previous;
-  }
-}
-.icon-search {
-  &:before {
-    content: $icon-search;
+    content: $icon-linkedin;
   }
 }
 .icon-twitter {
@@ -55,4 +34,18 @@
     content: $icon-twitter;
   }
 }
-
+.icon-social {
+  &:before {
+    content: $icon-social;
+  }
+}
+.icon-facebook {
+  &:before {
+    content: $icon-facebook;
+  }
+}
+.icon-menu {
+  &:before {
+    content: $icon-menu;
+  }
+}

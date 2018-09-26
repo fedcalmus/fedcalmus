@@ -7,7 +7,7 @@ $images-folder: '../img/';
 
 $font-primary: "Poiret One", serif;
 $font-secondary: 'Raleway', sans-serif;
-$font-icons: "Icomoon Project Name";
+$font-icons: "Fedcalmus icons";
 
 // Color usage
 
@@ -16,9 +16,9 @@ $color-secondary: #90b0c8 !default;
 $color-tertiary: #475f7f !default;
 $color-highlight: #39a4cd !default;
 $color-warning: #e44c23 !default;
-$color-disable: #cecece;
-$color-black: #000000;
-$color-white: #ffffff;
+$color-disable: #cecece !default;
+$color-black: #000000 !default;
+$color-white: #ffffff !default;
 
 // Descriptive Base Colors
 
@@ -62,7 +62,7 @@ $transition-delay: 50ms;
 
 // Container
 
-$cont-width: 1620px;
+$cont-width: 1820px;
 $cont-padding: 30px;
 
 // Resolutions

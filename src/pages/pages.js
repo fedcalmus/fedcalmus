@@ -2,7 +2,8 @@ const pages = [
     'about',
     'contact',
     'grid',
-    'blog'
+    'blog',
+    'canvas'
 ];
 
 export default pages;
